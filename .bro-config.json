@@ -1,22 +1,22 @@
 {
-  groups: [
-    { group: "school", entity: "students", fields: [
-        {name: "studentId", type: "csharp:int"},
-        {name: "firstName", type: "csharp:string", width: 50},
-        {name: "lastName", type: "csharp:string", width: 50}
+  "groups": [
+    { "group": "school", "entity": "students", "fields": [
+        {"name": "studentId", "type": "int"},
+        {"name": "firstName", "type": "string", "width": 50},
+        {"name": "lastName", "type": "string", "width": 50}
       ]
     },
-    { group: "school", entity: "teachers", fields: [
-        {name: "teacherId", type: "csharp:int"},
-        {name: "firstName", type: "csharp:string", width: 50},
-        {name: "lastName", type: "csharp:string", width: 50},
-        {name: "yearsExperience", type: "csharp:int"}
+    { group: "school", entity: "teachers", "fields": [
+        {"name": "teacherId", "type": "int"},
+        {"name": "firstName", "type": "string", "width": 50},
+        {"name": "lastName", "type": "string", "width": 50},
+        {"name": "yearsExperience", "type": "int"}
       ]
     },
-    { group: "school", entity: "classes", fields: [
-        {name: "classId", type: "csharp:int"},
-        {name: "className", type: "csharp:string", width: 100},
-        {name: "daysPerWeek", type: "csharp:int"}
+    { group: "school", entity: "classes", "fields": [
+        {"name": "classId", "type": "int"},
+        {"name": "className", "type": "string", "width": 100},
+        {"name": "daysPerWeek", "type": "int"}
       ]
     }
   ]
