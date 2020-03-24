@@ -1,23 +1,20 @@
-{
-  "groups": [
-    { "group": "school", "entity": "students", "fields": [
-        {"name": "studentId", "type": "int"},
-        {"name": "firstName", "type": "string", "width": 50},
-        {"name": "lastName", "type": "string", "width": 50}
-      ]
-    },
-    { "group": "school", "entity": "teachers", "fields": [
-        {"name": "teacherId", "type": "int"},
-        {"name": "firstName", "type": "string", "width": 50},
-        {"name": "lastName", "type": "string", "width": 50},
-        {"name": "yearsExperience", "type": "int"}
-      ]
-    },
-    { "group": "school", "entity": "classes", "fields": [
-        {"name": "classId", "type": "int"},
-        {"name": "className", "type": "string", "width": 100},
-        {"name": "daysPerWeek", "type": "int"}
-      ]
-    }
-  ]
-}
+{ "groups":[
+  { "group": "school", "entities": [
+    { "entity": "students", "fields": [
+      { "name": "studentId", "type": "int", "width": null},
+      { "name": "firstName", "type": "string", "width": 50},
+      { "name": "lastName", "type": "string", "width": 50}
+    ]},
+    { "entity": "teachers", "fields": [
+      {"name": "teacherId", "type": "int", "width": null},
+      {"name": "firstName", "type": "string", "width": 50},
+      {"name": "lastName", "type": "string", "width": 50},
+      {"name": "yearsExperience", "type": "int", "width": null}
+    ]},
+    { "entity": "classes", "fields": [
+      {"name": "classId", "type": "int", "width": null},
+      {"name": "className", "type": "string", "width": 100},
+      {"name": "daysPerWeek", "type": "int", "width": null}
+    ]}
+  ]}
+]}
